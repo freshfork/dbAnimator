@@ -13,7 +13,7 @@ The original VB6 version is now converted to VB16 and C#. Operation is similar a
 
 This new release contains four independent branches which create sizable testing workloads against a database server. Select from three Windows applications (built with C#, Visual Basic 16, and the venerable VB6) or use the C# console application (which is compatible with Mono and can run on MacOS, Linux, Docker, or Windows).
 
-See the wiki in this repository for operational tips.
+See the [wiki](https://github.com/freshfork/dbAnimator/wiki) in this repository for operational tips.
 
 
 #### Concept
