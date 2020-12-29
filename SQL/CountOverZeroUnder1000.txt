@@ -1,0 +1,2 @@
+﻿select count(*) from dbo.TestTransaction where Amount > 0 and CardNo < 373783500000999;
+go

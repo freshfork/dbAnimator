@@ -1,0 +1,13 @@
+Use Test
+TRUNCATE TABLE TestTransaction;
+go
+
+
+/* DELETE FROM dbo.TestTransaction;
+GO
+*/
+
+
+SELECT COUNT(*) FROM dbo.TestTransaction;
+GO
+

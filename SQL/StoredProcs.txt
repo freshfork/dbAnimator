@@ -1,0 +1,35 @@
+use Test
+ALTER DATABASE Test SET RECOVERY FULL;
+go
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'UpdateAccount'))
+drop procedure UpdateAccount
+go
+
+create procedure UpdateAccount (@acctno char(15), @amt money, @chrgdate datetime)
+as
+BEGIN TRANSACTION
+UPDATE TestTransaction 
+   SET ChargeDate = @chrgdate,
+       Amount = @amt
+ WHERE CardNo = @acctno
+
+COMMIT TRANSACTION
+go
+
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'GetAccount'))
+drop procedure GetAccount
+go
+
+create procedure GetAccount (@acctno char(15))
+as
+BEGIN TRANSACTION
+SELECT ChargeDate, Amount
+  FROM TestTransaction 
+ WHERE CardNo = @acctno
+
+COMMIT TRANSACTION
+go

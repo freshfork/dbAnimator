@@ -1,0 +1,2 @@
+﻿UPDATE dbo.TestTransaction SET Amount = 0.00;
+GO

@@ -1,0 +1,2 @@
+﻿Select count(*) from dbo.TestTransaction where Amount > 0;
+go

@@ -1,0 +1,15 @@
+create database Test
+go
+
+// no logging necessary during load process
+ALTER DATABASE Test SET RECOVERY SIMPLE;
+go
+
+if exists (select * from dbo.sysobjects where id = object_id(N'TestTransaction'))
+drop table TestTransaction
+go
+
+create table TestTransaction (CardNo char(15) PRIMARY KEY CLUSTERED,
+ChargeDate DateTime,
+Amount Money)
+go
