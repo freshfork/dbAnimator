@@ -235,21 +235,21 @@ On the server, use Performance Monitor to collect statistics such as Transaction
 
 #### 25-Year Version History
 
-**20201226:** v7.0: New version release: VB6, C#, VB16, and C# console; renamed *dbAnimator*. <br>
-**20201125:** New branch under development: C# cross-platform <br>
-**20191214:** Updated branch under development: VB6 <br>
-**20190314:** New branch under development: C# <br>
-**20190214:** New version under development: VB16 <br>
+**2020.1226:** v7.0: New version release: VB6, C#, VB16, and C# console; renamed *dbAnimator*. <br>
+**2020.1125:** New branch under development: C# cross-platform <br>
+**2019.1214:** Updated branch under development: VB6 <br>
+**2019.0314:** New branch under development: C# <br>
+**2019.0214:** New version under development: VB16 <br>
 *-------------- eighteen years pass --------------* <br>
-**20010328:** Microsoft Press publishes SQL Server 2000 Resource Kit which included *Database Hammer* in the ToolsAndSamples folder on the companion CD.<br>
-**20010119:** v6.1: Minor UI adjustments completed for release. <br>
-**20001113:** Submission for packaging within SQL Server 2000 Resource Kit <br>
-**20000706:** v6.0: To reduce transaction response time, modified to use stored procedures (per recommendation from Badriddine Khessib). Clients ask for a copy. The tool is used by members of our test team in Redmond to generate loads for enterprise clients. <br>
-**20000615:** v5.0: Further development to increase number of connections; renamed *Database Hammer*. <br>
-**20000321:** v4.0: Updated SQLLoader (with Enterprise Apps in Redmond)
+**2001.0328:** Microsoft Press publishes SQL Server 2000 Resource Kit which included *Database Hammer* in the ToolsAndSamples folder on the companion CD.<br>
+**2001.0119:** v6.1: Minor UI adjustments completed for release. <br>
+**2000.1113:** Submission for packaging within SQL Server 2000 Resource Kit <br>
+**2000.0706:** v6.0: To reduce transaction response time, modified to use stored procedures (per recommendation from Badriddine Khessib). Clients ask for a copy. The tool is used by members of our test team in Redmond to generate loads for enterprise clients. <br>
+**2000.0615:** v5.0: Further development to increase number of connections; renamed *Database Hammer*. <br>
+**2000.0321:** v4.0: Updated SQLLoader (with Enterprise Apps in Redmond)
     Intial development into a new multi-threaded version to load data and process a mix of transactions.<br>
-**19981115:** v3.0: Renamed to SQLLoader in VB6 (with MCS) to run simulated credit card transactions like SQL Load Simulator. <br>
-**19971120:** v2.0: Renamed to SQL Transaction Injector in VB5 and updated to simulate hotel transactions: checkin, restaurant purchase, folio updates, interface activity, message posts, miscellaneous, checkout for our client, Anasazi. <br>
-**19951018:** v1.0: During my tenure as a database performance consultant with Microsoft Consulting Services in Phoenix, I wrote a Stress Simulation Program in VB4 called *crisptst* to run transactions and stress tests against SQL Server for our client, First Interstate Bank.
+**1998.1115:** v3.0: Renamed to SQLLoader in VB6 (with MCS) to run simulated credit card transactions like SQL Load Simulator. <br>
+**1997.1120:** v2.0: Renamed to SQL Transaction Injector in VB5 and updated to simulate hotel transactions: checkin, restaurant purchase, folio updates, interface activity, message posts, miscellaneous, checkout for our client, Anasazi. <br>
+**1995.1018:** v1.0: During my tenure as a database performance consultant with Microsoft Consulting Services in Phoenix, I wrote a Stress Simulation Program in VB4 called *crisptst* to run transactions and stress tests against SQL Server for our client, First Interstate Bank.
 
 //EOF
